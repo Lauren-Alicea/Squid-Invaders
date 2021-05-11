@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF580495264ABDEC009DAAC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF580494264ABDEC009DAAC6 /* AppDelegate.swift */; };
+		AF580497264ABDEC009DAAC6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF580496264ABDEC009DAAC6 /* GameScene.sks */; };
+		AF580499264ABDEC009DAAC6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF580498264ABDEC009DAAC6 /* Actions.sks */; };
+		AF58049B264ABDEC009DAAC6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58049A264ABDEC009DAAC6 /* GameScene.swift */; };
+		AF58049D264ABDEC009DAAC6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58049C264ABDEC009DAAC6 /* GameViewController.swift */; };
+		AF5804A0264ABDEC009DAAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF58049E264ABDEC009DAAC6 /* Main.storyboard */; };
+		AF5804A2264ABDED009DAAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5804A1264ABDED009DAAC6 /* Assets.xcassets */; };
+		AF5804AD264ABDED009DAAC6 /* Squid_InvadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5804AC264ABDED009DAAC6 /* Squid_InvadersTests.swift */; };
+		AF5804B8264ABDED009DAAC6 /* Squid_InvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5804B7264ABDED009DAAC6 /* Squid_InvadersUITests.swift */; };
+		AF5804DC264ABEAA009DAAC6 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5804DB264ABEAA009DAAC6 /* PlaySound.swift */; };
+		AF5804E3264ABF38009DAAC6 /* laser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E0264ABF38009DAAC6 /* laser.mp3 */; };
+		AF5804E4264ABF38009DAAC6 /* boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E1264ABF38009DAAC6 /* boom.mp3 */; };
+		AF5804E5264ABF38009DAAC6 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E2264ABF38009DAAC6 /* background_music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5804A9264ABDED009DAAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF580489264ABDEC009DAAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF580490264ABDEC009DAAC6;
+			remoteInfo = "Squid-Invaders";
+		};
+		AF5804B4264ABDED009DAAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF580489264ABDEC009DAAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF580490264ABDEC009DAAC6;
+			remoteInfo = "Squid-Invaders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF580491264ABDEC009DAAC6 /* Squid-Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squid-Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF580494264ABDEC009DAAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF580496264ABDEC009DAAC6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AF580498264ABDEC009DAAC6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AF58049A264ABDEC009DAAC6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF58049C264ABDEC009DAAC6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF58049F264ABDEC009DAAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5804A1264ABDED009DAAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5804A3264ABDED009DAAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5804A8264ABDED009DAAC6 /* Squid-InvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Squid-InvadersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5804AC264ABDED009DAAC6 /* Squid_InvadersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squid_InvadersTests.swift; sourceTree = "<group>"; };
+		AF5804AE264ABDED009DAAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5804B3264ABDED009DAAC6 /* Squid-InvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Squid-InvadersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5804B7264ABDED009DAAC6 /* Squid_InvadersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squid_InvadersUITests.swift; sourceTree = "<group>"; };
+		AF5804B9264ABDED009DAAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5804DB264ABEAA009DAAC6 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		AF5804E0264ABF38009DAAC6 /* laser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = laser.mp3; path = ../../../Sound/laser.mp3; sourceTree = "<group>"; };
+		AF5804E1264ABF38009DAAC6 /* boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = boom.mp3; path = ../../../Sound/boom.mp3; sourceTree = "<group>"; };
+		AF5804E2264ABF38009DAAC6 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_music.mp3; path = ../../../Sound/background_music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF58048E264ABDEC009DAAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5804A5264ABDED009DAAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5804B0264ABDED009DAAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF580488264ABDEC009DAAC6 = {
+			isa = PBXGroup;
+			children = (
+				AF580493264ABDEC009DAAC6 /* Squid-Invaders */,
+				AF5804AB264ABDED009DAAC6 /* Squid-InvadersTests */,
+				AF5804B6264ABDED009DAAC6 /* Squid-InvadersUITests */,
+				AF580492264ABDEC009DAAC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF580492264ABDEC009DAAC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF580491264ABDEC009DAAC6 /* Squid-Invaders.app */,
+				AF5804A8264ABDED009DAAC6 /* Squid-InvadersTests.xctest */,
+				AF5804B3264ABDED009DAAC6 /* Squid-InvadersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF580493264ABDEC009DAAC6 /* Squid-Invaders */ = {
+			isa = PBXGroup;
+			children = (
+				AF5804D1264ABE67009DAAC6 /* Sounds */,
+				AF580494264ABDEC009DAAC6 /* AppDelegate.swift */,
+				AF580496264ABDEC009DAAC6 /* GameScene.sks */,
+				AF580498264ABDEC009DAAC6 /* Actions.sks */,
+				AF58049A264ABDEC009DAAC6 /* GameScene.swift */,
+				AF58049C264ABDEC009DAAC6 /* GameViewController.swift */,
+				AF58049E264ABDEC009DAAC6 /* Main.storyboard */,
+				AF5804A1264ABDED009DAAC6 /* Assets.xcassets */,
+				AF5804A3264ABDED009DAAC6 /* Info.plist */,
+			);
+			path = "Squid-Invaders";
+			sourceTree = "<group>";
+		};
+		AF5804AB264ABDED009DAAC6 /* Squid-InvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5804AC264ABDED009DAAC6 /* Squid_InvadersTests.swift */,
+				AF5804AE264ABDED009DAAC6 /* Info.plist */,
+			);
+			path = "Squid-InvadersTests";
+			sourceTree = "<group>";
+		};
+		AF5804B6264ABDED009DAAC6 /* Squid-InvadersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5804B7264ABDED009DAAC6 /* Squid_InvadersUITests.swift */,
+				AF5804B9264ABDED009DAAC6 /* Info.plist */,
+			);
+			path = "Squid-InvadersUITests";
+			sourceTree = "<group>";
+		};
+		AF5804D1264ABE67009DAAC6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AF5804E2264ABF38009DAAC6 /* background_music.mp3 */,
+				AF5804E1264ABF38009DAAC6 /* boom.mp3 */,
+				AF5804E0264ABF38009DAAC6 /* laser.mp3 */,
+				AF5804DB264ABEAA009DAAC6 /* PlaySound.swift */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF580490264ABDEC009DAAC6 /* Squid-Invaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5804BC264ABDED009DAAC6 /* Build configuration list for PBXNativeTarget "Squid-Invaders" */;
+			buildPhases = (
+				AF58048D264ABDEC009DAAC6 /* Sources */,
+				AF58048E264ABDEC009DAAC6 /* Frameworks */,
+				AF58048F264ABDEC009DAAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Squid-Invaders";
+			productName = "Squid-Invaders";
+			productReference = AF580491264ABDEC009DAAC6 /* Squid-Invaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5804A7264ABDED009DAAC6 /* Squid-InvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5804BF264ABDED009DAAC6 /* Build configuration list for PBXNativeTarget "Squid-InvadersTests" */;
+			buildPhases = (
+				AF5804A4264ABDED009DAAC6 /* Sources */,
+				AF5804A5264ABDED009DAAC6 /* Frameworks */,
+				AF5804A6264ABDED009DAAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5804AA264ABDED009DAAC6 /* PBXTargetDependency */,
+			);
+			name = "Squid-InvadersTests";
+			productName = "Squid-InvadersTests";
+			productReference = AF5804A8264ABDED009DAAC6 /* Squid-InvadersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5804B2264ABDED009DAAC6 /* Squid-InvadersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5804C2264ABDED009DAAC6 /* Build configuration list for PBXNativeTarget "Squid-InvadersUITests" */;
+			buildPhases = (
+				AF5804AF264ABDED009DAAC6 /* Sources */,
+				AF5804B0264ABDED009DAAC6 /* Frameworks */,
+				AF5804B1264ABDED009DAAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5804B5264ABDED009DAAC6 /* PBXTargetDependency */,
+			);
+			name = "Squid-InvadersUITests";
+			productName = "Squid-InvadersUITests";
+			productReference = AF5804B3264ABDED009DAAC6 /* Squid-InvadersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF580489264ABDEC009DAAC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AF580490264ABDEC009DAAC6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					AF5804A7264ABDED009DAAC6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AF580490264ABDEC009DAAC6;
+					};
+					AF5804B2264ABDED009DAAC6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AF580490264ABDEC009DAAC6;
+					};
+				};
+			};
+			buildConfigurationList = AF58048C264ABDEC009DAAC6 /* Build configuration list for PBXProject "Squid-Invaders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF580488264ABDEC009DAAC6;
+			productRefGroup = AF580492264ABDEC009DAAC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF580490264ABDEC009DAAC6 /* Squid-Invaders */,
+				AF5804A7264ABDED009DAAC6 /* Squid-InvadersTests */,
+				AF5804B2264ABDED009DAAC6 /* Squid-InvadersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF58048F264ABDEC009DAAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5804E5264ABF38009DAAC6 /* background_music.mp3 in Resources */,
+				AF5804A0264ABDEC009DAAC6 /* Main.storyboard in Resources */,
+				AF580497264ABDEC009DAAC6 /* GameScene.sks in Resources */,
+				AF5804A2264ABDED009DAAC6 /* Assets.xcassets in Resources */,
+				AF580499264ABDEC009DAAC6 /* Actions.sks in Resources */,
+				AF5804E3264ABF38009DAAC6 /* laser.mp3 in Resources */,
+				AF5804E4264ABF38009DAAC6 /* boom.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5804A6264ABDED009DAAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5804B1264ABDED009DAAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF58048D264ABDEC009DAAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF58049B264ABDEC009DAAC6 /* GameScene.swift in Sources */,
+				AF5804DC264ABEAA009DAAC6 /* PlaySound.swift in Sources */,
+				AF58049D264ABDEC009DAAC6 /* GameViewController.swift in Sources */,
+				AF580495264ABDEC009DAAC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5804A4264ABDED009DAAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5804AD264ABDED009DAAC6 /* Squid_InvadersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5804AF264ABDED009DAAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5804B8264ABDED009DAAC6 /* Squid_InvadersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5804AA264ABDED009DAAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF580490264ABDEC009DAAC6 /* Squid-Invaders */;
+			targetProxy = AF5804A9264ABDED009DAAC6 /* PBXContainerItemProxy */;
+		};
+		AF5804B5264ABDED009DAAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF580490264ABDEC009DAAC6 /* Squid-Invaders */;
+			targetProxy = AF5804B4264ABDED009DAAC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF58049E264ABDEC009DAAC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF58049F264ABDEC009DAAC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5804BA264ABDED009DAAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF5804BB264ABDED009DAAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5804BD264ABDED009DAAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Squid-Invaders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lauren.Squid-Invaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5804BE264ABDED009DAAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Squid-Invaders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lauren.Squid-Invaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF5804C0264ABDED009DAAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Squid-InvadersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lauren.Squid-InvadersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squid-Invaders.app/Squid-Invaders";
+			};
+			name = Debug;
+		};
+		AF5804C1264ABDED009DAAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Squid-InvadersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lauren.Squid-InvadersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squid-Invaders.app/Squid-Invaders";
+			};
+			name = Release;
+		};
+		AF5804C3264ABDED009DAAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Squid-InvadersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lauren.Squid-InvadersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Squid-Invaders";
+			};
+			name = Debug;
+		};
+		AF5804C4264ABDED009DAAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Squid-InvadersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lauren.Squid-InvadersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Squid-Invaders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF58048C264ABDEC009DAAC6 /* Build configuration list for PBXProject "Squid-Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5804BA264ABDED009DAAC6 /* Debug */,
+				AF5804BB264ABDED009DAAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5804BC264ABDED009DAAC6 /* Build configuration list for PBXNativeTarget "Squid-Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5804BD264ABDED009DAAC6 /* Debug */,
+				AF5804BE264ABDED009DAAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5804BF264ABDED009DAAC6 /* Build configuration list for PBXNativeTarget "Squid-InvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5804C0264ABDED009DAAC6 /* Debug */,
+				AF5804C1264ABDED009DAAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5804C2264ABDED009DAAC6 /* Build configuration list for PBXNativeTarget "Squid-InvadersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5804C3264ABDED009DAAC6 /* Debug */,
+				AF5804C4264ABDED009DAAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF580489264ABDEC009DAAC6 /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0F27AC264C0EB80048BC45 /* planet_kosmos.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF0F27AB264C0EB80048BC45 /* planet_kosmos.ttf */; };
 		AF580495264ABDEC009DAAC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF580494264ABDEC009DAAC6 /* AppDelegate.swift */; };
 		AF580497264ABDEC009DAAC6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF580496264ABDEC009DAAC6 /* GameScene.sks */; };
 		AF580499264ABDEC009DAAC6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF580498264ABDEC009DAAC6 /* Actions.sks */; };
@@ -20,6 +21,7 @@
 		AF5804E3264ABF38009DAAC6 /* laser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E0264ABF38009DAAC6 /* laser.mp3 */; };
 		AF5804E4264ABF38009DAAC6 /* boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E1264ABF38009DAAC6 /* boom.mp3 */; };
 		AF5804E5264ABF38009DAAC6 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E2264ABF38009DAAC6 /* background_music.mp3 */; };
+		AF5804EA264AD956009DAAC6 /* LuckiestGuy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF5804E9264AD956009DAAC6 /* LuckiestGuy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF0F27AB264C0EB80048BC45 /* planet_kosmos.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = planet_kosmos.ttf; sourceTree = "<group>"; };
 		AF580491264ABDEC009DAAC6 /* Squid-Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squid-Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF580494264ABDEC009DAAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF580496264ABDEC009DAAC6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		AF5804E0264ABF38009DAAC6 /* laser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = laser.mp3; path = ../../../Sound/laser.mp3; sourceTree = "<group>"; };
 		AF5804E1264ABF38009DAAC6 /* boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = boom.mp3; path = ../../../Sound/boom.mp3; sourceTree = "<group>"; };
 		AF5804E2264ABF38009DAAC6 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_music.mp3; path = ../../../Sound/background_music.mp3; sourceTree = "<group>"; };
+		AF5804E9264AD956009DAAC6 /* LuckiestGuy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LuckiestGuy.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				AF580496264ABDEC009DAAC6 /* GameScene.sks */,
 				AF580498264ABDEC009DAAC6 /* Actions.sks */,
 				AF58049A264ABDEC009DAAC6 /* GameScene.swift */,
+				AF5804E9264AD956009DAAC6 /* LuckiestGuy.ttf */,
+				AF0F27AB264C0EB80048BC45 /* planet_kosmos.ttf */,
 				AF58049C264ABDEC009DAAC6 /* GameViewController.swift */,
 				AF58049E264ABDEC009DAAC6 /* Main.storyboard */,
 				AF5804A1264ABDED009DAAC6 /* Assets.xcassets */,
@@ -254,10 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0F27AC264C0EB80048BC45 /* planet_kosmos.ttf in Resources */,
 				AF5804E5264ABF38009DAAC6 /* background_music.mp3 in Resources */,
 				AF5804A0264ABDEC009DAAC6 /* Main.storyboard in Resources */,
 				AF580497264ABDEC009DAAC6 /* GameScene.sks in Resources */,
 				AF5804A2264ABDED009DAAC6 /* Assets.xcassets in Resources */,
+				AF5804EA264AD956009DAAC6 /* LuckiestGuy.ttf in Resources */,
 				AF580499264ABDEC009DAAC6 /* Actions.sks in Resources */,
 				AF5804E3264ABF38009DAAC6 /* laser.mp3 in Resources */,
 				AF5804E4264ABF38009DAAC6 /* boom.mp3 in Resources */,

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF0F27AC264C0EB80048BC45 /* planet_kosmos.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF0F27AB264C0EB80048BC45 /* planet_kosmos.ttf */; };
+		AF0F27B4264C2E6E0048BC45 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0F27B3264C2E6E0048BC45 /* GameOverScene.swift */; };
 		AF580495264ABDEC009DAAC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF580494264ABDEC009DAAC6 /* AppDelegate.swift */; };
 		AF580497264ABDEC009DAAC6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF580496264ABDEC009DAAC6 /* GameScene.sks */; };
 		AF580499264ABDEC009DAAC6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF580498264ABDEC009DAAC6 /* Actions.sks */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		AF0F27AB264C0EB80048BC45 /* planet_kosmos.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = planet_kosmos.ttf; sourceTree = "<group>"; };
+		AF0F27B3264C2E6E0048BC45 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		AF580491264ABDEC009DAAC6 /* Squid-Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squid-Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF580494264ABDEC009DAAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF580496264ABDEC009DAAC6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				AF58049E264ABDEC009DAAC6 /* Main.storyboard */,
 				AF5804A1264ABDED009DAAC6 /* Assets.xcassets */,
 				AF5804A3264ABDED009DAAC6 /* Info.plist */,
+				AF0F27B3264C2E6E0048BC45 /* GameOverScene.swift */,
 			);
 			path = "Squid-Invaders";
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0F27B4264C2E6E0048BC45 /* GameOverScene.swift in Sources */,
 				AF58049B264ABDEC009DAAC6 /* GameScene.swift in Sources */,
 				AF5804DC264ABEAA009DAAC6 /* PlaySound.swift in Sources */,
 				AF58049D264ABDEC009DAAC6 /* GameViewController.swift in Sources */,
